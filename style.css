@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", serif; 
+    background-color: #5B374D;
+    text-align: center;
+}
+.container {
+    text-align: center;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto ;
+    box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.389);
+    background-color:#96527A ;
+
+}
+h1 {
+    padding-top: 50px;
+    color:#F99F72 ;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto; 
+    padding: 10px;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #5b374d52;
+    background-color: #F99F72;
+    cursor: pointer;
+    color: #f57445;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+button{
+    margin-bottom: 50px ;
+    border : none; 
+    padding: 20px 10px;
+    border-radius: 30px;
+    background-color: #F99F72;
+    color: #96527A;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+button:hover {
+    transition: 0.30s;
+    background-color: #f99f7291;
+}
+.message {
+    font-size: 20px;
+    color: #F99F72;
+    text-align: center;
+}
+
+.winner-message {
+    font-size: 4rem; /* Taille du texte en grand */
+    text-align: center;
+    margin-top: 50px;
+    color: #CD6889;
+    position: relative;
+    animation: bounce 1s ease infinite; /* Animation de rebond */
+}
+
+/* Animation de rebond */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Position initiale */
+    }
+    40% {
+        transform: translateY(-30px); /* Montée */
+    }
+    60% {
+        transform: translateY(-15px); /* Descente */
+    }
+}
+
+
+.hide-board {
+    display: none; /* Pour cacher la grille */
+}
+
+
+
