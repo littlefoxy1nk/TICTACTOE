@@ -1,13 +1,16 @@
-# Tic-Tac-Toe
+# ✖️​ ⚪​ Tic-Tac-Toe ⚪​✖️​
 
 Welcome my Tic-Tac-Toe game! This is a simple two-player game. The game will display the winner when someone wins.
 ## Preview
 ![Description de l'image](preview.png)
 
+--- 
+
 ## 🎨 Color palette
 - **Orange** : `#F99F72`
 - **Bordeaux** : `#5B374D`
 
+--- 
 
 ## ⚙️ Features
 
@@ -17,20 +20,26 @@ Winning Announcements🏆: When a player wins the game, our Tic-Tac-Toe applicat
 Simple and responsive interface 🎨: Whether you're playing on you can!  
 Easy Reset 🔄: A convenient reset button allows you to quickly clear the board and begin a fresh match.  
 
+--- 
+
 ## Technologies Used
 
 HTML
 CSS
 JavaScript 
 
+---
+
 📌 Possible Improvements
 
 Add a solo mode with AI 🤖   
 Add a score tracking system 🏆    
-Improve animations and sound effects 🔊    
+Improve animations and sound effects 🔊
+
+--- 
 
 ## 🚀 Play Online
-Play now by following this link: [Play Tic-Tac-Toe](https://littlefoxy1nk.github.io/mytictactoe/)
+Play now by following this link: [Play Tic-Tac-Toe](https://littlefoxy1nk.github.io/TICTACTOE/)
 
 
 
