@@ -23,9 +23,9 @@ JavaScript
 
 📌 Possible Improvements
 
-Add a solo mode with AI 🤖 
-Add a score tracking system 🏆  
-Improve animations and sound effects 🔊  
+Add a solo mode with AI 🤖   
+Add a score tracking system 🏆    
+Improve animations and sound effects 🔊    
 
 ## 🚀 Play Online
 Play now by following this link: [Play Tic-Tac-Toe](https://littlefoxy1nk.github.io/mytictactoe/)
