@@ -1,6 +1,8 @@
 # Tic-Tac-Toe
 
 Welcome my Tic-Tac-Toe game! This is a simple two-player game. The game will display the winner when someone wins.
+## Preview
+![Description de l'image](Capture d’écran 2025-02-26 à 09.20.39.png)
 
 ## 🎨 Color palette
 - **Orange** : `#F99F72`
